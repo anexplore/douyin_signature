@@ -9,8 +9,8 @@ https://www.iesdouyin.com/share/user/${uid}
 https://www.iesdouyin.com/share/user/23094256623
 
 ## 破解步骤：
-### 搜索signature关键词
-### 定位到signature sign在index_xxxx.js中, 继续定位定义在third_xxxx.js中
+#### 搜索signature关键词
+#### 定位到signature sign在index_xxxx.js中, 继续定位定义在third_xxxx.js中
 ```javascript
 ;/*!douyin_falcon:node_modules/byted-acrawler/dist/runtime.js*/
 __M.define("douyin_falcon:node_modules/byted-acrawler/dist/runtime", function(l, e) {
@@ -24,8 +24,8 @@ __M.define("douyin_falcon:node_modules/byted-acrawler/dist/runtime", function(l,
 });
 ```
 
-### 定位__M.define的定义
+#### 定位__M.define的定义
 
-### 将以上js组合在一起即可调用
+#### 将以上js组合在一起即可调用
 
 ## 可使用node/python/java封装执行js，对外提供HTTP接口服务
